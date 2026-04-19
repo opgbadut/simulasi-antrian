@@ -51,7 +51,7 @@ Program ini dirancang agar interaktif dan berjalan secara real-time di sisi clie
 
 
 ## Struktur File
-
+```text
 📁 root-directory/
 ├── 📄 index.html    # Tampilan utama dan antarmuka pengguna
 ├── 📄 style.css     # Kumpulan aturan gaya visual
