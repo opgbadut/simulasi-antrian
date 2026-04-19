@@ -52,7 +52,7 @@ Program ini dirancang agar interaktif dan berjalan secara real-time di sisi clie
 
 ## Struktur File
 ```text
-📁 root-directory/
+📁 simulasi-antrian/
 ├── 📄 index.html    # Tampilan utama dan antarmuka pengguna
 ├── 📄 style.css     # Kumpulan aturan gaya visual
 ├── 📄 script.js     # Mesin kalkulasi FCFS dan interaktivitas
