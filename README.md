@@ -34,20 +34,20 @@ Program ini dirancang agar interaktif dan berjalan secara real-time di sisi clie
      - Siapkan data metrik antrian yang ingin diuji (seperti data "Waktu Kedatangan" dan "Waktu Pelayanan" pada studi kasus Kasir Supermarket X).
 
 2. Memasukkan Data ke Sistem
-   * Pada panel kontrol di bagian atas halaman, isi nilai Waktu Kedatangan pada kolom pertama.
-   * Isi nilai Waktu Pelayanan (dalam menit) pada kolom kedua.
-   * Klik tombol Tambah Data. Data yang diinputkan akan otomatis masuk dan diurutkan di **Tabel 1**.
+   - Pada panel kontrol di bagian atas halaman, isi nilai Waktu Kedatangan pada kolom pertama.
+   - Isi nilai Waktu Pelayanan (dalam menit) pada kolom kedua.
+   - Klik tombol Tambah Data. Data yang diinputkan akan otomatis masuk dan diurutkan di **Tabel 1**.
 
 3. Membaca Hasil Kalkulasi Otomatis
-   * Begitu data ditambahkan, algoritma FCFS akan langsung mengeksekusi perhitungan.
-   * Lihat Tabel 2 (Nilai Antrian) untuk mengecek detail waktu keluar, durasi waktu tunggu antrian, dan total waktu pelanggan di dalam sistem.
-   * Lihat Tabel 3 (Rincian Event) untuk melacak kronologi kejadian. Tabel ini mensimulasikan *state* mesin (perubahan status kasir antara "Sibuk" dan "Menganggur") berdasarkan momen pelanggan "Datang" dan "Keluar".
+   - Begitu data ditambahkan, algoritma FCFS akan langsung mengeksekusi perhitungan.
+   - Lihat Tabel 2 (Nilai Antrian) untuk mengecek detail waktu keluar, durasi waktu tunggu antrian, dan total waktu pelanggan di dalam sistem.
+   - Lihat Tabel 3 (Rincian Event) untuk melacak kronologi kejadian. Tabel ini mensimulasikan *state* mesin (perubahan status kasir antara "Sibuk" dan "Menganggur") berdasarkan momen pelanggan "Datang" dan "Keluar".
 
 4. Mengedit atau Menghapus Data (Koreksi)
-   * Jika ada kesalahan ketik saat menginput data, klik baris pelanggan yang bersangkutan langsung pada Tabel 1.
-   * Baris tersebut akan tersorot (highlight) dan datanya akan naik kembali ke form input.
-   * Lakukan perubahan angka, lalu klik Update Data. Jika ingin menghapusnya, klik Hapus Data.
-   * Seluruh perhitungan di Tabel 2 dan log pada Tabel 3 akan secara otomatis dikalkulasi ulang menyesuaikan perubahan data tersebut.
+   - Jika ada kesalahan ketik saat menginput data, klik baris pelanggan yang bersangkutan langsung pada Tabel 1.
+   - Baris tersebut akan tersorot (highlight) dan datanya akan naik kembali ke form input.
+   - Lakukan perubahan angka, lalu klik Update Data. Jika ingin menghapusnya, klik Hapus Data.
+   - Seluruh perhitungan di Tabel 2 dan log pada Tabel 3 akan secara otomatis dikalkulasi ulang menyesuaikan perubahan data tersebut.
 
 
 ## Struktur File
