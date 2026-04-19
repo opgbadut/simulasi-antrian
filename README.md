@@ -1,11 +1,11 @@
-# Simulasi Antrian FCFS (First Come First Serve) - Kasir Supermarket X 🛒
+# Simulasi Antrian FCFS (First Come First Serve) - Kasir Supermarket X 
 
 Sebuah program simulasi antrian berbasis web menggunakan metode FCFS (First Come First Serve) murni. Proyek ini dibuat untuk memodelkan dan menghitung waktu tunggu pelanggan, waktu pelayanan, serta memetakan garis waktu kejadian (event timeline) pada sebuah sistem kasir tunggal.
 
 Secara konsep, logika antrian ini serupa dengan pemrosesan queue tree dasar pada antarmuka jaringan: permintaan yang masuk ke buffer lebih awal akan dieksekusi terlebih dahulu tanpa memandang beban kerja.
 
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - Input Interaktif: Pengguna dapat menambahkan data waktu kedatangan dan durasi pelayanan secara manual.
 - CRUD Sederhana: Mendukung fitur Edit dan Hapus data secara langsung.
@@ -18,7 +18,7 @@ Secara konsep, logika antrian ini serupa dengan pemrosesan queue tree dasar pada
 - UI/UX Bersih: Desain responsif dan rapi.
 
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 Proyek ini dibangun murni menggunakan standar web dasar tanpa framework tambahan:
 - HTML5: Struktur dan semantik halaman.
@@ -26,7 +26,7 @@ Proyek ini dibangun murni menggunakan standar web dasar tanpa framework tambahan
 - Vanilla JavaScript (ES6): Logika pemrosesan array, penanganan event, kalkulasi FCFS, dan manipulasi DOM.
 
 
-## 📖 Cara Pemakaian (Panduan Simulasi)
+## Cara Pemakaian (Panduan Simulasi)
 
 Program ini dirancang agar interaktif dan berjalan secara real-time di sisi client. Berikut adalah langkah-langkah untuk menjalankan simulasi:
 
@@ -50,7 +50,7 @@ Program ini dirancang agar interaktif dan berjalan secara real-time di sisi clie
    * Seluruh perhitungan di Tabel 2 dan log pada Tabel 3 akan secara otomatis dikalkulasi ulang menyesuaikan perubahan data tersebut.
 
 
-## 📂 Struktur File
+## Struktur File
 
 📁 root-directory/
 ├── 📄 index.html    # Tampilan utama dan antarmuka pengguna
