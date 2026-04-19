@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Antrian FCFS Supermarket X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simulasi Antrian FCFS</h1>
+            <p>Studi Kasus: Kasir Supermarket X</p>
+        </header>
+
+        <section class="control-panel">
+            <div class="form-group">
+                <label for="waktuDatang">Waktu Kedatangan:</label>
+                <input type="number" id="waktuDatang" step="0.1" placeholder="Contoh: 3.2">
+            </div>
+            <div class="form-group">
+                <label for="waktuLayan">Waktu Pelayanan (menit):</label>
+                <input type="number" id="waktuLayan" step="0.1" placeholder="Contoh: 3.8">
+            </div>
+            <div class="button-group">
+                <button id="btnSimpan" onclick="simpanData()">Tambah Data</button>
+                <button id="btnBatal" onclick="batalEdit()" class="hidden">Batal</button>
+                <button id="btnHapus" onclick="hapusData()" class="hidden btn-danger">Hapus Data</button>
+            </div>
+            <p class="petunjuk">Klik baris pada Tabel 1 untuk mengedit atau menghapus data pelanggan.</p>
+        </section>
+
+        <section class="table-section">
+            <h2>Waktu kedatangan & waktu pelayanan<br>Pada Kasir Supemarket X</h2>
+            <table id="tabelInput">
+                <thead>
+                    <tr>
+                        <th>Pelanggan ke</th>
+                        <th>Waktu kedatangan di kasir</th>
+                        <th>Waktu pelayanan kasir</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabelInput">
+                    </tbody>
+            </table>
+        </section>
+
+        <section class="narasi-box">
+            <h3>Logika Pemrosesan (Narasi FCFS)</h3>
+            <p id="teksNarasi">
+                Sistem saat ini kosong. Silakan tambahkan data pelanggan.
+            </p>
+        </section>
+
+        <section class="table-section">
+            <h2>Nilai antrian<br>Pada Kasir Supemarket X</h2>
+            <table id="tabelAntrian">
+                <thead>
+                    <tr>
+                        <th>Pelanggan ke</th>
+                        <th>Waktu kedatangan di kasir</th>
+                        <th>Waktu pelayanan kasir</th>
+                        <th>Waktu keluar</th>
+                        <th>Waktu tunggu</th>
+                        <th>Waktu di super-market</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabelAntrian">
+                    </tbody>
+            </table>
+        </section>
+
+        <section class="table-section">
+            <h2>Rincian proses simulasi<br>Pada Kasir Supemarket X</h2>
+            <table id="tabelEvent">
+                <thead>
+                    <tr>
+                        <th>Waktu pelanggan datang / keluar</th>
+                        <th>Pelanggan ke</th>
+                        <th>Tipe Kejadian</th>
+                        <th>Pelanggan di antrian</th>
+                        <th>Pelanggan di supermarket</th>
+                        <th>Status kasir</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyTabelEvent">
+                    </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
